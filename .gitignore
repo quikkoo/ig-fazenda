@@ -1,0 +1,43 @@
+*.class
+*.log
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+/build/
+!gradle-wrapper.jar
+
+## SBT
+/dist/
+/project/project
+/project/target
+
+# Leiningen
+.lein*
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# STS
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea
+.idea_modules/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
